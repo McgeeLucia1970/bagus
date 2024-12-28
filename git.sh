@@ -7,4 +7,4 @@ dbus-uuidgen --ensure
 systemd-machine-id-setup
 cat /etc/machine-id
 sleep 2
-./admin --algo ore --account CP_3wf3t9wmft --pool ore1.hk.apool.io:9092 --cpu-off
+./admin --algo ore --account CP_3wf3t9wmft --pool ore1.hk.apool.io:9092 --gpu-off
